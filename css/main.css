@@ -156,8 +156,8 @@ section {
 
 .apresentacao {
     padding-top: 2rem;
-    background-image: url("/img/background_estiloso2.png");
-    background-size: cover;
+    background-image: url("../img/background_estiloso2.png");
+    background-size: contain;
     width: 100%;
     height: 40rem;
     font-family: 'Bebas Neue', cursive;
