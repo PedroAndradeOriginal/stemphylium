@@ -48,7 +48,7 @@
 body {
     padding-top: 4.3rem;
     background-image: url("../img/background_estiloso2.png");
-    background-size: cover;
+    background-size: repeat;
 }
 
 .bg-dark {
@@ -180,6 +180,17 @@ section {
     margin-top: 4rem;
 }
 
+.container .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .cards .row .col .card{
+    justify-content: center;
+    box-shadow: 5px 5px 5px 1px #64686d;
+}
+
 .carousel{
     box-sizing: border-box;
     background-color: #16181b;
@@ -195,7 +206,7 @@ section {
     color: #fff;
     width: 100%;
     margin-top: 6rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.1rem;
     padding-right: 15px;
     padding-left: 15px;
     text-align: center;
@@ -208,12 +219,41 @@ section {
 }
 
 footer {
-    text-align: center;
-    margin-bottom: 1rem;
+    height: 2.5rem;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 footer h3{
+    margin: 0px;
     font-size: 1rem;
+}
+
+footer span {
+    color: #ad17b5;
+    font-size: 1rem;
+}
+
+.descricao-dev {
+    display: flex;
+    align-items: center;
+    height: 2.5rem;
+}
+
+.social-dev {
+    width: 10rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.social-dev img {
+    height: 20px;
 }
 
 /*______________________________________________Responsivo________________________________________________________*/
