@@ -1,0 +1,53 @@
+/* ESTILOS GLOBAIS
+-------------------------------------------------- */
+/* Padding abaixo do footer e texto mais suave no <body> */
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+main h2 {
+    font-family: 'Shadows Into Light', cursive;
+    color: #16181b;
+}
+
+main h2 {
+    font-family: 'Shadows Into Light', cursive;
+    color: #a31b1b;
+}
+
+main p {
+    color: #16181b;
+}
+
+.featurette-divider {
+    margin: 5rem 0;
+}
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+
+
+/*-------------------------------------------------- */
+
+@media (min-width: 40em) {
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+}
+
+@media (max-width: 450px) {
+    body {
+        margin-top: -5rem;
+    }
+}

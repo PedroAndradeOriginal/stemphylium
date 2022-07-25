@@ -197,15 +197,15 @@ section {
 }
 
 #sobre {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #16181b;
     color: #fff;
     width: 100%;
-    margin-top: 6rem;
+    margin-top: 8rem;
     margin-bottom: 0.1rem;
     padding-right: 15px;
     padding-left: 15px;
