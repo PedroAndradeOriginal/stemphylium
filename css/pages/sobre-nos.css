@@ -12,9 +12,9 @@ main h2 {
     color: #16181b;
 }
 
-main h2 {
+.text-muted {
     font-family: 'Shadows Into Light', cursive;
-    color: #a31b1b;
+    color: #a31b1b!important;
 }
 
 main p {
