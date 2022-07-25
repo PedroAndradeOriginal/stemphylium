@@ -10,8 +10,9 @@ ScrollReveal({
 
 // Delay
 
-sr.reveal('.apresentacao', { delay: 200 })
+sr.reveal('.apresentacao', { delay: 250 })
 sr.reveal('.carousel-inner', { delay: 300 })
-sr.reveal('.noticias', { delay: 300 })
-sr.reveal('.final', { delay: 350 })
+sr.reveal('.noticias', { delay: 350 })
+sr.reveal('.final', { delay: 400 })
 sr.reveal('.s-contact', { delay: 200 })
+sr.reveal('.row', { delay: 200 })

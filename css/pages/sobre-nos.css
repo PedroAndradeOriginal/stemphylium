@@ -4,7 +4,6 @@
 
 body {
     padding-top: 3rem;
-    padding-bottom: 3rem;
 }
 
 main h2 {
@@ -14,11 +13,27 @@ main h2 {
 
 .text-muted {
     font-family: 'Shadows Into Light', cursive;
-    color: #a31b1b!important;
+    color: #a31b1b !important;
 }
 
 main p {
     color: #16181b;
+    font-family: 'Bebas Neue', cursive;
+}
+
+main img {
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 1px #16181b;
+}
+
+p span {
+    color: #a31b1b;
+}
+
+.col-md-7 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
 .featurette-divider {
@@ -42,12 +57,16 @@ main p {
 
 @media (min-width: 62em) {
     .featurette-heading {
-        margin-top: 7rem;
+        margin-top: 1rem;
     }
 }
 
 @media (max-width: 450px) {
     body {
         margin-top: -5rem;
+    }
+
+    p span {
+        display: none;
     }
 }
